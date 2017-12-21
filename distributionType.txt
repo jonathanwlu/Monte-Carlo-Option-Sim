@@ -1,0 +1,11 @@
+dists: ['normal', 'uniform', 'bootstrap', 'double-bell', 'skewnorm']
+
+'bootstrap' NOT supported in jumps
+
+Examples:
+
+jumps=[{'dte': 100, 'dist': 'normal', 'mean': 0, 'sd': 10, 'delta': 0, 'skew_a': 0}]
+
+jumps=[{'dte': 100, 'dist': 'double-bell', 'mean': 0, 'sd': 10, 'delta': 1, 'skew_a': 0}]
+
+jumps=[{'dte': 100, 'dist': 'skewnorm', 'mean': 0, 'sd': 10, 'delta': 0, 'skew_a': 3}]

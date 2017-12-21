@@ -1,0 +1,11 @@
+custom test: 480000 iterations of bs_option_price and bs_option_implied_vol
+
+32 bit Core 2 Duo E7500
+-----
+bs_option_price average: 2.777992616470472e-07.s
+bs_option_delta average: 1.4036895249980663e-07.s
+bs_option_gamma average: 1.6840872654938456e-07.s
+bs_option_vega average: 1.6833733399919725e-07.s
+bs_option_rho average: 4.877402543044633e-07.s
+bs_option_implied_vol average: 4.815497502836941e-10.s
+custom test result: 134.0711801223542s

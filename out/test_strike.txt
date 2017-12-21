@@ -1,0 +1,15 @@
+INPUT
+--------------------
+arg=value
+length=100
+start_price=98
+times=250
+center_strike=100
+strike_range=.3
+num_strike=12
+filename=test_strike
+dist=skewnorm
+delta=
+bs_data=
+jumps=[{'dte': 50, 'dist': 'normal', 'mean': 0, 'sd': .6, 'delta': 0, 'skew_a': 0}]
+skew_a=3

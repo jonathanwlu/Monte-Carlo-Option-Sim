@@ -1,0 +1,14 @@
+arg=value
+center_length=100
+length_range=50
+num_lengths=10
+vol=.25
+start_price=98
+times=2500
+strike=100
+filename=test_dte
+dist=skewnorm
+delta=
+bs_data=
+jumps=[{'dte': 100, 'dist': 'normal', 'mean': 0, 'sd': 10, 'delta': 0, 'skew_a': 0}]
+skew_a=3
